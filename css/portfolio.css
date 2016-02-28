@@ -18,6 +18,10 @@
 }
 
 
+@media (min-width: 1250px) {
+	
+}
+
 
 body, html {
 	height: 100%;
@@ -29,7 +33,9 @@ body, html {
 #site-wrapper {
     height: 100%;
     width: 100%;
-    /* position: relative; */
+    position: relative;
+    min-width: 1252px;
+    min-height: 552px;
     /* padding: 20px; */
     /* display: inline-block; */
     /* white-space: nowrap; */
