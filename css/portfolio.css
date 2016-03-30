@@ -18,6 +18,7 @@
 }
 
 
+
 @media (min-width: 1250px) {
 	
 }
@@ -678,3 +679,88 @@ a.mrdiv-thank-you {}
     rgb(229, 229, 229) 62px 62px,
     rgb(230, 230, 230) 63px 63px;
 }
+
+
+
+
+
+@media (max-width:600px) {
+  
+  #site-wrapper {
+    min-width: 100%;
+    min-height: 649px;
+  }
+  
+  
+  .left-pane {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 15px;
+    
+  }
+  
+  .pic-me {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    display: block;
+    
+  }
+  
+  .resume-dl {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    right: 0px;
+    top: 0px;
+    width: 100px;
+  }
+  
+  .resume-dl button {
+    margin: 15px 0px;
+  }
+  
+  .bio-card-right {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    right: 0px;
+    top: -19px;
+  }
+  
+  .clearfix:after {
+  	visibility: hidden;
+  	display: block;
+  	font-size: 0;
+  	content: " ";
+  	clear: both;
+  	height: 0;
+  }
+  
+  
+  .right-pane {
+    width: 100%;
+    height: 100%;
+    height: 344px;
+    position: relative;
+    padding: 15px 0px;
+  }
+  
+  .blurby {
+    margin-top: 0px;
+  }
+  
+  
+  .bottom-pane {
+    position: relative;
+    height: 146px;
+  }
+	
+}
+
+
+
+
+
